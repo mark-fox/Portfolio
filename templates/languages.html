@@ -1,0 +1,26 @@
+{%  extends 'layout.html' %}
+
+{% block body %}
+
+    <div id="langDiv">
+        <h2>Programming Languages:</h2>
+        <p>The table below lists the programming and database languages I have worked with.</p>
+        <table class="langTable">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for foo in items %}
+                    <tr>
+                        <td class="langCell">{{ foo.language }}</td>
+                    </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}
