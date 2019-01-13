@@ -9,6 +9,17 @@ def resumeFunction():
                 'psyschool': 'University of Minnesota (Minneapolis, Minnesota)'
             },
             'exp1': {
+                'title': 'Quality Assurance Tester',
+                'length': 'June 2018 - Present',
+                'org': 'Activision Publishing, Inc.',
+                'loc': 'Eden Prairie, Minnesota',
+                'tasks': [
+                    'Performs varying queries in JIRA database to identify current issues and update accordingly',
+                    'Documents newly discovered issues with thorough descriptions to allow quality reproductions',
+                    'Conducts regression tests on various types of issues to verify their successful completion'
+                ]
+            },
+            'exp2': {
                 'title': 'Project Technical Analyst Intern - Managed Print Service Project',
                 'length': 'June 2016 - November 2017',
                 'org': 'Fairview Health Services - IT Department',
@@ -21,7 +32,7 @@ def resumeFunction():
                     'Installed new printers for multiple hospital and clinic sites using technical expertise to provide users with modern devices and services'
                 ]
             },
-            'exp2': {
+            'exp3': {
                 'title': 'Associate Manager Administrative Support',
                 'length': 'January 2013 - January 2016',
                 'org': 'Open Access Technology International, Inc. (OATI)',

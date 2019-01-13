@@ -46,6 +46,18 @@
                 {% endfor %}
             </ul>
 
+            <br>
+
+            <p class="title">{{item.exp3.title}}</p>
+            <p>{{item.exp3.length}}</p>
+            <p>{{item.exp3.org}}</p>
+            <p>{{item.exp3.loc}}</p>
+            <ul>
+                {% for task in item.exp3.tasks %}
+                    <li>{{task}}</li>
+                {% endfor %}
+            </ul>
+
         {% endfor %}
 
     </div>
