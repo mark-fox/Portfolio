@@ -25,9 +25,9 @@
         {% for item in data %}
 
             <p class="title">{{item.exp1.title}}</p>
-            <p>{{item.exp1.length}}</p>
             <p>{{item.exp1.org}}</p>
             <p>{{item.exp1.loc}}</p>
+            <p>{{item.exp1.length}}</p>
             <ul>
                 {% for task in item.exp1.tasks %}
                     <li>{{task}}</li>
@@ -37,9 +37,9 @@
             <br>
 
             <p class="title">{{item.exp2.title}}</p>
-            <p>{{item.exp2.length}}</p>
             <p>{{item.exp2.org}}</p>
             <p>{{item.exp2.loc}}</p>
+            <p>{{item.exp2.length}}</p>
             <ul>
                 {% for task in item.exp2.tasks %}
                     <li>{{task}}</li>
@@ -49,11 +49,23 @@
             <br>
 
             <p class="title">{{item.exp3.title}}</p>
-            <p>{{item.exp3.length}}</p>
             <p>{{item.exp3.org}}</p>
             <p>{{item.exp3.loc}}</p>
+            <p>{{item.exp3.length}}</p>
             <ul>
                 {% for task in item.exp3.tasks %}
+                    <li>{{task}}</li>
+                {% endfor %}
+            </ul>
+
+            <br>
+
+            <p class="title">{{item.exp4.title}}</p>
+            <p>{{item.exp4.org}}</p>
+            <p>{{item.exp4.loc}}</p>
+            <p>{{item.exp4.length}}</p>
+            <ul>
+                {% for task in item.exp4.tasks %}
                     <li>{{task}}</li>
                 {% endfor %}
             </ul>

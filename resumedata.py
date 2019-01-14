@@ -48,7 +48,7 @@ def resumeFunction():
                     'Supported sales team with diverse assignments for high quality presentations'
                 ]
             },
-            'exp3': {
+            'exp4': {
                 'title': 'Captain (Supervisor)',
                 'length': 'October 2010 - January 2013',
                 'org': 'Metropolitan Valet',
