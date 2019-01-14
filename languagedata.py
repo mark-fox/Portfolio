@@ -13,12 +13,12 @@ def langFunction():
         {
             'id': 3,
             'language': 'C++',
-            'rating': 1
+            'rating': 2
         },
         {
             'id': 4,
             'language': 'Unreal Engine',
-            'rating': 1
+            'rating': 2
         },
         {
             'id': 5,
@@ -48,6 +48,16 @@ def langFunction():
         {
             'id': 10,
             'language': 'Firebase',
+            'rating': 1
+        },
+        {
+            'id': 11,
+            'language': 'Unity',
+            'rating': 1
+        },
+        {
+            'id': 12,
+            'language': 'MongoDB',
             'rating': 1
         }
     ]
